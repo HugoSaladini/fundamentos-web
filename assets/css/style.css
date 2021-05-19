@@ -2,13 +2,21 @@
 
 .center {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
+    
 }
 
 .justify {
 
     text-align: justify;
     
+}
+
+.container-menu {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
 }
 
 .container {
@@ -54,8 +62,8 @@
 
   }
   .tmu {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
 
   }
 
